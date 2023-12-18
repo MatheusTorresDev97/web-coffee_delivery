@@ -5,16 +5,15 @@ import { GlobalStyle } from "./styles/global";
 import { BrowserRouter } from "react-router-dom";
 import { AppRoutes } from "./AppRoutes";
 
-
 const App = () => {
   return (
-   <ThemeProvider theme={defaultTheme}>
-         <GlobalStyle />
-         <BrowserRouter>
-         <AppRoutes />
-         </BrowserRouter>
-   </ThemeProvider>
-  )
-}
+    <ThemeProvider theme={defaultTheme}>
+      <GlobalStyle />
+      <BrowserRouter>
+        <AppRoutes />
+      </BrowserRouter>
+    </ThemeProvider>
+  );
+};
 
-export default App
+export default App;
