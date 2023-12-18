@@ -7,6 +7,7 @@ export const AppRoutes = () => {
     <Routes>
       <Route path="/" element={<DefaultLayout />}>
         <Route path="/" element={<Home />} />
+        
       </Route>
     </Routes>
   );
